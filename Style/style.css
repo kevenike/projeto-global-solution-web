@@ -186,18 +186,6 @@ section p {
     line-height: 1.4; 
 }
 
-@media (max-width: 768px) {
-    section {
-      
-    }
-
-    section p {
-        font-size: 0.8em; 
-    }
-
-
-}
-
 .conteudo-texto {
     flex: 1;
     max-width: 48%; 
