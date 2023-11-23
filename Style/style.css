@@ -188,13 +188,14 @@ section p {
 
 @media (max-width: 768px) {
     section {
-        flex-basis: 100%;
-        text-align: center;
+      
     }
 
     section p {
         font-size: 0.8em; 
     }
+
+
 }
 
 .conteudo-texto {
