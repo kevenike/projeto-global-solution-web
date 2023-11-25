@@ -885,3 +885,39 @@ button:hover {
         max-width: none;
     }
 }
+
+.container-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.container-documento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+strong{
+    color: #007bff;
+}
+
+.container-documento h1 h2 {
+    text-align: center;
+    color: #007bff;
+}
+
+.container-documento p {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .container-documento {
+        max-width: 100%;
+    }
+}
