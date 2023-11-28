@@ -417,6 +417,7 @@ section p {
     background-color: #0096fa; 
     color: #fff; 
     padding: 50px;
+    margin-top: 60px;
 }
 
 .conteudo {
@@ -480,6 +481,7 @@ img {
     text-align-last: left;
     max-width: 800px;
     margin: 0 auto;
+    margin-top: 40px;
     padding: 20px;
     background-color: #f8f8f8;
     border-radius: 10px;
